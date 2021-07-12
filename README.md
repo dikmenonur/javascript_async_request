@@ -9,23 +9,20 @@
 
 ## Description
 
-1KB lightweight, fast & powerful JavaScript templating engine with zero
-dependencies.  
-Compatible with server-side environments like [Node.js](https://nodejs.org/),
-module loaders like [RequireJS](https://requirejs.org/) or
-[webpack](https://webpack.js.org/) and all web browsers.
+This js file is for sending form elements server-side async.
+You will have done all **post**, **get** and **other** http operations in a very short time.
 
 ## Usage
 
 
-Include the (minified) JavaScript Templates script in your HTML markup:
+Include the JavaScript file script in your HTML markup:
 ### Client-side
 ```html
 <script src="js/asyncForm.js"></script>
 ```
 
-Add a script section with type **"text/x-tmpl"**, a unique **id** property and
-your template definition as content:
+The first method is an example for the post method.
+Here you can parse the form elements and send them to the asnycForm library.
 
 ```html
 <script type="text/x-tmpl" id="async-demo">
@@ -65,19 +62,13 @@ var data = {
     name: 'MIT license',
     url: 'https://opensource.org/licenses/MIT'
   },
-  features: ['lightweight & fast', 'powerful', 'zero dependencies']
+  features: ['asncyform & fast', 'powerful', '-']
 }
 ```
 
 In a real application, this data could be the result of retrieving a
 [JSON](https://json.org/) resource.
 
-Render the result by calling the **tmpl()** method with the id of the template
-and the data object as arguments:
-
-```js
-document.getElementById('result').innerHTML = tmpl('tmpl-demo', data)
-``
 
 Add a other js property **test.js** with the following content:
 
@@ -97,7 +88,7 @@ Add a other js property **test.js** with the following content:
 
 ## Requirements
 
-The JavaScript Templates script has zero dependencies.
+The JavaScript script.
 
 
 ## License

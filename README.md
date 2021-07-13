@@ -49,9 +49,6 @@ Here you can parse the form elements and send them to the asnycForm library.
 </script>
 ```
 
-**"o"** (the lowercase letter) is a reference to the data parameter of the
-template function (see the API section on how to modify this identifier).
-
 In your application code, create a JavaScript object to use as data for the
 template:
 
